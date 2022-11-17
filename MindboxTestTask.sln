@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTestTask", "MindboxTestTask\MindboxTestTask.csproj", "{9B51195B-CCE0-4F89-A4DB-85712D54DA45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTestTask.UnitTests", "MindboxTestTask.UnitTests\MindboxTestTask.UnitTests.csproj", "{A0D4EA8B-47C2-4553-B01C-C3D2896B514C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindboxTestTask.ConsoleApp", "MindboxTestTask.ConsoleApp\MindboxTestTask.ConsoleApp.csproj", "{2F440C4C-1798-4AFA-9A39-C893B909642C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9B51195B-CCE0-4F89-A4DB-85712D54DA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B51195B-CCE0-4F89-A4DB-85712D54DA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B51195B-CCE0-4F89-A4DB-85712D54DA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D4EA8B-47C2-4553-B01C-C3D2896B514C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D4EA8B-47C2-4553-B01C-C3D2896B514C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D4EA8B-47C2-4553-B01C-C3D2896B514C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D4EA8B-47C2-4553-B01C-C3D2896B514C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F440C4C-1798-4AFA-9A39-C893B909642C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F440C4C-1798-4AFA-9A39-C893B909642C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F440C4C-1798-4AFA-9A39-C893B909642C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F440C4C-1798-4AFA-9A39-C893B909642C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
