@@ -1,0 +1,8 @@
+Запрос для MS SQL Server, если название продукта и категория продукта хранятся в одной таблице:
+
+- SELECT product_name, category_name FROM products WHERE product_name IS NOT NULL
+
+
+Если данные о названии продукта и категории продукта хранятся в разных таблицах (что вероятнее):
+
+- SELECT Products.product_name, Categories.category_name FROM Products LEFT OUTER JOIN Categories ON Products.category_id = Categories.id
